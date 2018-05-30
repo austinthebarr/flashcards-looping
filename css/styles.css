@@ -1,0 +1,90 @@
+.boxMove1 {
+  border: solid;
+  width: 300px;
+  height: 150px;
+  background: orange;
+}
+.boxMove2 {
+  border: solid;
+  width: 300px;
+  height: 150px;
+  background: #00FFFF;
+}
+
+.boxMove3 {
+  border: solid;
+  width: 300px;
+  height: 150px;
+  background: #ADFF2F;
+}
+
+
+
+
+
+
+
+
+
+.js-showing {
+  display: none;
+
+}
+.op-showing {
+  display: none;
+}
+.var-showing {
+  display: none;
+}
+
+.fun-showing {
+  display: none;
+}
+
+.met-showing {
+  display: none;
+}
+
+.arg-showing {
+  display: none;
+}
+
+.par-showing {
+  display: none;
+}
+.ret-showing {
+  display: none;
+}
+.chain-showing {
+  display: none;
+}
+.str-showing {
+  display: none;
+}
+
+.bo-showing {
+  display: none;
+}
+
+.und-showing {
+  display: none;
+}
+.nan-showing {
+  display: none;
+}
+.es-showing {
+  display: none;
+}
+.al-showing {
+  display: none;
+}
+.com-showing {
+  display: none;
+}
+
+.jq-showing {
+  display: none;
+}
+.att-showing {
+  display: none;
+}

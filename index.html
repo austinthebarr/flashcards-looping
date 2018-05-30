@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flashcard Page</title>
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+
+
+      <h1>Flashcards</h1>
+    </div>
+    <h2>Some useful definitions</h2>
+
+
+    <div class="js-hidden">
+      <p class="js">JavaScript</p>
+    </div>
+
+    <div class="js-showing">
+      <div class="boxMove1">
+        <p class="js"><strong>JavaScript:</strong> often abbreviated as JS, is a high-level,
+          interpreted programming language. It is a language which is also characterized
+          as dynamic, weakly typed, prototype-based and multi-paradigm.</p>
+        </div>
+      </div>
+
+
+      <div class="op-hidden">
+        <p class="op">Operators</p>
+      </div>
+
+      <div class="op-showing">
+        <div class="boxMove2">
+
+
+          <p class="op"><strong>Operators:</strong> in JavaScript are very similar to operators that appear in
+            other programming languages. The definition of an operator is a symbol that is used
+            to perform an operation. Most often these operations are arithmetic (addition,
+            subtraction, etc), but not always.</p>
+          </div>
+        </div>
+        <div class="var-hidden">
+          <p class="var">Variables</p>
+        </div>
+
+
+        <div class="var-showing">
+          <div class="boxMove3">
+            <p class="var"><strong>Variable: </strong>has two scopes: global and local. A variable that is declared
+              outside a function definition is a global variable, and its value is accessible and
+              modifiable throughout your program. A variable that is declared inside a function
+              definition is local</p>
+            </div>
+          </div>
+
+          <div class="fun-hidden">
+            <p class="fun">Functions</p>
+          </div>
+          <div class="fun-showing">
+            <div class="boxMove1">
+              <p class="fun"><Strong>Functions:</strong> Functions are one of the fundamental
+                building blocks in JavaScript. A function is a JavaScript procedure—a set of
+                statements that performs a task or calculates a value. To use a function, you
+                must define it somewhere in the scope from which you wish to call it.</p>
+              </div>
+            </div>
+
+            <div class="met-hidden">
+              <p class="met">Methods</p>
+            </div>
+
+            <div class="met-showing">
+              <div class="boxMove2">
+
+                <p class="met"><Strong>Methods:</strong> JavaScript methods are actions that can
+                  be performed on objects. A JavaScript method is a property containing a function
+                  definition. Property. Value. firstName.</p>
+                </div>
+              </div>
+              <div class="arg-hidden">
+                <p class="arg">Arguments</p>
+              </div>
+
+              <div class="arg-showing">
+                <div class="boxMove3">
+                  <p class="arg"><strong>Arguments:</strong> JavaScript functions have a built-in object
+                    called the arguments object. The argument object contains an array of the arguments
+                    used when the function was called (invoked).</p>
+                  </div>
+                </div>
+
+                <div class="par-hidden">
+                  <p class="par">Parameters</p>
+                </div>
+
+                <div class="par-showing">
+                  <p class="par"><strong>Parameters: </strong>The parameters,
+                    in a function call, are the function's arguments. JavaScript
+                    arguments are passed by value: The function only gets to know the values,
+                    not the argument's locations. If a function changes an argument's value, it
+                    does not change the parameter's original value.</p>
+                  </div>
+                  <div class="ret-hidden">
+                    <p class="ret">Returns</p>
+                  </div>
+
+                  <div class="ret-showing">
+                    <div class="boxMove1">
+                      <p class="ret"><strong>Returns: </strong>The return statement ends function execution
+                        and specifies a value to be returned to the function caller.</p>
+                      </div>
+                    </div>
+
+                    <div class="chain-hidden">
+                      <p class="chain">Chaining-methods</p>
+                    </div>
+
+                    <div class="chain-showing">
+                      <div class="boxMove2">
+
+
+                        <p class="chain"><strong>Chaining-methods: </strong>Chaining Methods, also known as
+                          Cascading, refers to repeatedly calling one method after another on an object, in
+                          one continuous line of code. This technique abounds in jQuery and other JavaScript
+                          libraries and it is even common in some JavaScript native methods.</p>
+                        </div>
+                      </div>
+                      <div class="str-hidden">
+                        <p class="str">Strings</p>
+                      </div>
+
+                      <div class="str-showing">
+                        <div class="boxMove3">
+
+
+                          <p class="str"><strong>Strings: </strong>In computer programming, a string is
+                            traditionally a sequence of characters, either as a literal constant or as some
+                            kind of variable. The latter may allow its elements to be mutated and the length
+                            changed, or it may be fixed (after creation).</p>
+                          </div>
+                        </div>
+                        <div class="bo-hidden">
+                          <p class="bo">Boolean</p>
+                        </div>
+
+                        <div class="bo-showing">
+                          <div class="boxMove1">
+
+
+                            <p class="bo"><strong>Boolean: </strong>The Boolean object represents two values,
+                              either "true" or "false". If value parameter is omitted or is 0, -0, null,
+                              false, NaN, undefined, or the empty string (""), the object has an initial
+                              value of false.</p>
+                            </div>
+                          </div>
+                          <div class="und-hidden">
+                            <p class="und">Undefined</p>
+                          </div>
+
+                          <div class="und-showing">
+                            <div class="boxMove2">
+
+
+                              <p class="und"><strong>Undefined: </strong>means a variable has been declared but
+                                has not yet been assigned a value, such as: var TestVar; alert(TestVar);
+                                //shows undefined alert(typeof TestVar); //shows undefined. null is an
+                                assignment value.</p>
+                              </div>
+                            </div>
+
+                            <div class="nan-hidden">
+                              <p class="nan">NaN</p>
+                            </div>
+
+                            <div class="nan-showing">
+                              <div class="boxMove3">
+
+
+                                <p class="nan"><strong>NaN: </strong>"Not-a-Number" value. This property indicates
+                                  that a value is not a legal number. The NaN property is the same as the Number.Nan
+                                  property. Tip: Use the isNaN() global function to check if a value is a NaN
+                                  value.</p>
+                                </div>
+                              </div>
+                              <div class="es-hidden">
+                                <p class="es">Escape()</p>
+                              </div>
+
+                              <div class="es-showing">
+                                <div class="boxMove1">
+
+
+                                  <p class="es"><strong>Escape(): </strong>"The escape() function encodes a string.This
+                                    function makes a string portable, so it can be transmitted across any network to any
+                                    computer that supports ASCII characters.This function encodes special characters,
+                                    with the exception of: * @ - _ + . /</p>
+                                  </div>
+                                </div>
+                                <div class="al-hidden">
+                                  <p class="al">alert()</p>
+                                </div>
+
+                                <div class="al-showing">
+                                  <div class="boxMove2">
+
+
+                                    <p class="al"><strong>alert(): </strong>The alert() method displays an alert box with a
+                                      specified message and an OK button. An alert box is often used if you want to
+                                      make sure information comes through to the user.</p>
+                                    </div>
+                                  </div>
+                                  <div class="com-hidden">
+                                    <p class="com">Comments</p>
+                                  </div>
+
+                                  <div class="com-showing">
+                                    <div class="boxMove3">
+
+
+                                      <p class="com"><strong>Comments: </strong>single line comments start with //. Any text
+                                        between // and the end of the line will be ignored by JavaScript (will not be
+                                        executed).</p>
+                                      </div>
+                                    </div>
+                                    <div class="jq-hidden">
+                                      <p class="jq">JQuery</p>
+                                    </div>
+
+                                    <div class="jq-showing">
+                                      <div class="boxMove1">
+
+
+                                        <p class="jq"><strong>JQuery: </strong>is a concise and fast JavaScript library
+                                          that can be used to simplify event handling, HTML document traversing, Ajax
+                                          interactions and animation for speedy website development. jQuery simplifies the
+                                          HTML's client-side scripting, thus simplifying Web 2.0 applications development.</p>
+                                        </div>
+                                      </div>
+                                      <div class="att-hidden">
+                                        <p class="att">Attributes</p>
+                                      </div>
+
+                                      <div class="att-showing">
+                                        <div class="boxMove2">
+
+
+                                          <p class="att"><strong>Attributes: </strong>Attributes provide additional information
+                                            about HTML elements.</p>
+                                          </div>
+                                        </div>
+
+                                      </div>
+
+                                    </body>
+                                    </html>
