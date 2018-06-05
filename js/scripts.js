@@ -2,6 +2,8 @@ $(document).ready(function() {
 
   var defs = ["js", "op", "var", "fun", "met", "arg", "par", "ret", "chain", "str", "bo", "und", "nan", "es", "al", "com", "jq", "att"];
 
+
+/*
   defs.forEach(function(def) {
 
 
@@ -13,8 +15,16 @@ $(document).ready(function() {
     });
 
   });
+*/
 
-
+// debugger;
+for (i = 0; i < defs.length; i++){
+  $("p." + defs[i]).click(function() {
+    // console.log(event)
+    $("." + event.target.className + "-showing").toggle();
+    $("." + event.target.className + "-hidden").toggle();
+  });
+};
 
   // $("p.js").click(function() {
   //   $(".js-showing").toggle();
